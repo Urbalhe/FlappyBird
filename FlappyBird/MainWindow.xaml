@@ -8,8 +8,21 @@
         Title="Flappy Bird: The last Pigeon " Height="490" Width="525">
 	<Canvas Name="MyCanvas" Focusable="True" KeyDown="KeyIsDown"  KeyUp="KeyIsUp"  Background="DarkBlue">
 
-		<Image Height="146" Width="200" Source="/flappyfolder/flappykod2.png" Canvas.Left="108" Canvas.Top="82" Tag="kod"/>
+		<Image Height="145" Width="200" Source="/flappyfolder/clouds.png" Canvas.Left="65" Canvas.Top="164" Tag="kod"/>
 
+		<Image Height="391" Width="66" Source="/flappyfolder/pipeBottom.png" Tag="obs1" Canvas.Left="80" Canvas.Top="367" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+		<Image Height="391" Width="66" Source="/flappyfolder/pipeTop.png" Tag="obs1" Canvas.Left="76" Canvas.Top="-244" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+		<Image Height="145" Width="200" Source="/flappyfolder/clouds2.png" Canvas.Left="292" Canvas.Top="166" Tag="kod" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+		<Image Height="145" Width="200" Source="/flappyfolder/clouds2.png" Canvas.Left="280" Canvas.Top="86" Tag="kod" HorizontalAlignment="Left" VerticalAlignment="Top" />
+
+		<Image Height="391" Width="66" Source="/flappyfolder/pipeBottom.png" Tag="obs2" Canvas.Left="226" Canvas.Top="243" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+		<Image Height="391" Width="66" Source="/flappyfolder/pipeTop.png" Tag="obs2" Canvas.Left="228" Canvas.Top="-324" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+		<Image Height="391" Width="66" Source="/flappyfolder/pipeBottom.png" Tag="obs3" Canvas.Left="386" Canvas.Top="403" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+		<Image Height="391" Width="66" Source="/flappyfolder/pipeTop.png" Tag="obs3" Canvas.Left="378" Canvas.Top="-176" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+		<Image Name="flappyBird" Height="85" Width="74" Source="/flappyfolder/flappybird.png" Stretch="Fill" Canvas.Left="-4" Canvas.Top="207" HorizontalAlignment="Center" VerticalAlignment="Top"/>
 
 	</Canvas>
 </Window>
